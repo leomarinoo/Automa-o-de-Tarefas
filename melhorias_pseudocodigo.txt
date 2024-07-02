@@ -1,0 +1,12 @@
+Separar o codigo em classes com responsabilidades unicas (com nomes descritivo):
+
+    - uma classe responsavel por gerenciar o arquivo. Ex.: Abrir, ler e fechar o arquivo. (Navegador)
+
+    - uma classe para fornecer a URL junto com o login e senha do sistema, criando tres metodos.
+        - metodos: obter URL; obter login; obter senha.(usuario)
+
+    - uma classe para automatização das tarefas. (tasks)
+
+    - colocar o produto csv para pasta "data" (que devera ser criada), obter o caminho do arquivo de 
+    forma dinamica.
+        - usar comando do python que pega o caminho de execução da classe e adicionar "/data/produtos.csv".
