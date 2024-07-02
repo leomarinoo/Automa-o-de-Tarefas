@@ -37,6 +37,7 @@ class Navegador:
     def cadastro_produtos(self, lista_produtos): 
 
         for produto in lista_produtos: 
+            pyautogui.press('tab') 
             pyautogui.write(produto.codigo)
             pyautogui.press('tab')
             pyautogui.write(produto.marca)
@@ -50,8 +51,13 @@ class Navegador:
             pyautogui.write(produto.custo)
             pyautogui.press('tab')
             pyautogui.write(produto.obs) 
-
-            pyautogui.press('enter') 
-            time.sleep(5) 
-          
-            pyautogui.scroll(5000) 
+            pyautogui.press('enter')
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('tab')
+            pyautogui.press('tab') 
+            time.sleep(3) 
+            pyautogui.scroll(2000) 
