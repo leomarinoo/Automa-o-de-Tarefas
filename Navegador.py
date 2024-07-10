@@ -60,5 +60,5 @@ class Navegador:
             pyautogui.press('tab')
             pyautogui.press('tab') 
             time.sleep(3) 
-          
+
             pyautogui.scroll(5000) 
